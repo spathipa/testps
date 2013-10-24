@@ -1,0 +1,5 @@
+C:\PS\Bootstrap_scottallen\WebApplication1\bin\WebApplication1.dll
+C:\PS\Bootstrap_scottallen\WebApplication1\bin\WebApplication1.pdb
+C:\PS\Bootstrap_scottallen\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\PS\Bootstrap_scottallen\WebApplication1\obj\Debug\WebApplication1.dll
+C:\PS\Bootstrap_scottallen\WebApplication1\obj\Debug\WebApplication1.pdb
