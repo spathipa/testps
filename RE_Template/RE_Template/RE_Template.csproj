@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C65ACD19-9391-4322-9C4A-425207AF7C6C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RE_Template</RootNamespace>
+    <AssemblyName>RE_Template</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="proper\doc\assets\blueprint-css\ie.css" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\buttons\icons\cross.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\buttons\icons\key.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\buttons\icons\tick.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\buttons\readme.txt" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\buttons\screen.css" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\fancy-type\readme.txt" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\fancy-type\screen.css" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\doc.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\email.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\external.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\feed.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\im.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\pdf.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\visited.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\icons\xls.png" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\readme.txt" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\link-icons\screen.css" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\rtl\readme.txt" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\rtl\screen.css" />
+    <Content Include="proper\doc\assets\blueprint-css\print.css" />
+    <Content Include="proper\doc\assets\blueprint-css\screen.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\forms.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\grid.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\grid.png" />
+    <Content Include="proper\doc\assets\blueprint-css\src\ie.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\print.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\reset.css" />
+    <Content Include="proper\doc\assets\blueprint-css\src\typography.css" />
+    <Content Include="proper\doc\index.html" />
+    <Content Include="proper\proper\proper\about_us.html" />
+    <Content Include="proper\proper\proper\agents.html" />
+    <Content Include="proper\proper\proper\assets\css\bootstrap-responsive.css" />
+    <Content Include="proper\proper\proper\assets\css\bootstrap-responsive.min.css" />
+    <Content Include="proper\proper\proper\assets\css\bootstrap.css" />
+    <Content Include="proper\proper\proper\assets\css\bootstrap.min.css" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-alert.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-button.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-carousel.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-collapse.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-dropdown.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-modal.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-popover.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-scrollspy.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-tab.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-tooltip.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-transition.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap-typeahead.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap.js" />
+    <Content Include="proper\proper\proper\assets\js\bootstrap.min.js" />
+    <Content Include="proper\proper\proper\assets\js\jquery.js" />
+    <Content Include="proper\proper\proper\career.html" />
+    <Content Include="proper\proper\proper\contact.html" />
+    <Content Include="proper\proper\proper\custum-bg.html" />
+    <Content Include="proper\proper\proper\error_page.html" />
+    <Content Include="proper\proper\proper\faq.html" />
+    <Content Include="proper\proper\proper\galeries.html" />
+    <Content Include="proper\proper\proper\grid_stystem.html" />
+    <Content Include="proper\proper\proper\home_carousel.html" />
+    <Content Include="proper\proper\proper\home_full_slider.html" />
+    <Content Include="proper\proper\proper\home_simple.html" />
+    <Content Include="proper\proper\proper\index.html" />
+    <Content Include="proper\proper\proper\login.html" />
+    <Content Include="proper\proper\proper\news.html" />
+    <Content Include="proper\proper\proper\news_detail.html" />
+    <Content Include="proper\proper\proper\pricing.html" />
+    <Content Include="proper\proper\proper\properties_detail.html" />
+    <Content Include="proper\proper\proper\properties_filter.html" />
+    <Content Include="proper\proper\proper\properties_map.html" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\css\font-awesome-ie7.min.css" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\css\font-awesome.css" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\css\font-awesome.min.css" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\font\fontawesome-webfont.svg" />
+    <Content Include="proper\proper\proper\proper_theme\css\style.css" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\a1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\a2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\a3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\a4.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\circle\a1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\n5.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\thum_list\a1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\agents\thum_list\a2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\ajax-loader.gif" />
+    <Content Include="proper\proper\proper\proper_theme\images\arrow.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\bgboxline.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\captcha.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\formelements-select.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\forrent.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\forsale.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i4.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i5.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i6.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i7.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\interior\i8.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\logo.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\map\hostel_0star.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\map\villa.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\n1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\n2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\n3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\n4.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\slider\n1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\slider\n2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\slider\n3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\slider\n4.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\news\thum\n1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\next.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p1.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p10.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p2.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p3.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p4.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p5.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p6.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p7.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p8.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\patner\p9.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\45degreee_fabric.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\beige_paper.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\bgnoise_lg.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\cardboard.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\cubes.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\diagonal-noise.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\fabric_plaid.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\light_alu.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\ravenna.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\pattern\ricepaper.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\prev.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p4.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p5.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p6.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p7.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p8.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\p9.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\slider\fslider\p1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\thum_mini\p1.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\thum_mini\p2.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\properties\thum_mini\p3.jpg" />
+    <Content Include="proper\proper\proper\proper_theme\images\right-arrow.png" />
+    <Content Include="proper\proper\proper\proper_theme\images\view.png" />
+    <Content Include="proper\proper\proper\proper_theme\index2.html" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\helper-plugins\jquery.ba-throttle-debounce.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\helper-plugins\jquery.mousewheel.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\helper-plugins\jquery.touchSwipe.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\helper-plugins\jquery.transit.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\index.html" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\jquery-1.8.2.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\jquery.carouFredSel-6.2.1-packed.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\carouFredSel-6.2.1\jquery.carouFredSel-6.2.1.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\colorbox.css" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\images\border1.png" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\images\border2.png" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\images\loading.gif" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\jquery.colorbox-min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\colorbox\jquery.colorbox.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\gmap3\gmap3.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\gmap3\gmap3.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\Grid-A-Licious-master\jquery.grid-a-licious.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\Grid-A-Licious-master\jquery.grid-a-licious.min.js" />
+    <Content Include="proper\proper\proper\proper_theme\js\proper.js" />
+    <Content Include="proper\proper\proper\shortcode.html" />
+    <Content Include="proper\proper\proper\sign_up.html" />
+    <Content Include="proper\proper\proper\typograpy.html" />
+    <Content Include="proper\proper\proper\upload_step1.html" />
+    <Content Include="proper\proper\proper\upload_step2.html" />
+    <Content Include="proper\proper\proper\upload_step3.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bonus\arrow.cdr" />
+    <Content Include="bonus\logo.cdr" />
+    <Content Include="proper\doc\assets\blueprint-css\plugins\.DS_Store" />
+    <Content Include="proper\proper\proper.zip" />
+    <Content Include="proper\psd\arrow-slider.psd" />
+    <Content Include="proper\psd\arrowright.psd" />
+    <Content Include="proper\psd\banner.psd" />
+    <Content Include="proper\psd\bgboxline.psd" />
+    <Content Include="proper\psd\bgmaintitle.psd" />
+    <Content Include="proper\psd\news full slider.psd" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\.gitignore" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\font\fontawesome-webfont.eot" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\font\fontawesome-webfont.ttf" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\font\fontawesome-webfont.woff" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\font\FontAwesome.otf" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\less\font-awesome-ie7.less" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\less\font-awesome.less" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\sass\font-awesome.sass" />
+    <Content Include="proper\proper\proper\proper_theme\css\font\FortAwesome\sass\font-awesome.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56007/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

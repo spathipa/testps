@@ -1,0 +1,5 @@
+C:\PS\RE_Template\RE_Template\bin\RE_Template.dll
+C:\PS\RE_Template\RE_Template\bin\RE_Template.pdb
+C:\PS\RE_Template\RE_Template\obj\Debug\RE_Template.csprojResolveAssemblyReference.cache
+C:\PS\RE_Template\RE_Template\obj\Debug\RE_Template.dll
+C:\PS\RE_Template\RE_Template\obj\Debug\RE_Template.pdb
